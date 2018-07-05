@@ -1,2 +1,2 @@
-# hello-world
-Charlie Bot
+# Charlie
+This is where it all begins
