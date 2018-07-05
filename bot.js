@@ -16,9 +16,9 @@ client.on('message', message => {
     if (message.content.toLowerCase() === "we gotta be sneaky charlie")
        {message.channel.send('Yeah theres no way my legs can do that');return}
     if (message.content.toLowerCase() === 'it has spoken it has told us the way')
-       {message.channel.send('it didnt say anything');return 
+       {message.channel.send('it didnt say anything');return}
     if (message.content.toLowerCase() === 'goodbye charlie, goodbye')
-       {message.channel.send('goodbye what, hey whats going on here. Hello who is that...');return
+       {message.channel.send('goodbye what, hey whats going on here. Hello who is that...');return}
                          
     
 
