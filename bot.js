@@ -12,9 +12,9 @@ client.on('message', message => {
        {message.channel.send('<response>');return;}
      */
     if (message.content.toLowerCase() === 'oh my god')
-       {message.content.send('STOP STOP IT, I dont care about each and everyone of the sea creatures');return;}
+       {message.channel.send('STOP STOP IT, I dont care about each and everyone of the sea creatures');return;}
     if (message.content.toLowerCase() === "we gotta be sneaky charlie")
-       {message.content.send('Yeah theres no way my legs can do that');return}
+       {message.channel.send('Yeah theres no way my legs can do that');return}
     
                          
     
