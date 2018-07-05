@@ -4,10 +4,14 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('message', message => {
-    if (message.author.bot)
-       {return;}
+    if (message.author.bot) {return;}
     if (message.content.toLowerCase() === 'ring ring') 
        {message.channel.send('You have a bad connection');return;}
+    /*FOLLOW THIS TEMPLATE
+    if (message.content.toLowerCase() === '<trigger>')
+       {message.channel.send('<response>');return;}
+     */
+    
 
         
         
