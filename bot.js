@@ -15,8 +15,8 @@ client.on('message', message => {
        {message.channel.send('STOP STOP IT, I dont care about each and everyone of the sea creatures');return;}
     if (message.content.toLowerCase() === "we gotta be sneaky charlie")
        {message.channel.send('Yeah theres no way my legs can do that');return}
-    if (message.content.toLowerCase() === 'you do know that theres no actual candy mountain right')
-       {message.channel.send('shun the non-believer, shunnnnnnnnnnnn');return 
+    if (message.content.toLowerCase() === 'it has spoken it has told us the way')
+       {message.channel.send('it didnt say anything');return 
     if (message.content.toLowerCase() === 'goodbye Charlie, goodbye')
        {message.channel.send('goodbye what, hey whats going on here. Hello who is that...');return
                          
