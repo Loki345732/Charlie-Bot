@@ -11,6 +11,12 @@ client.on('message', message => {
     if (message.content.toLowerCase() === '<trigger>')
        {message.channel.send('<response>');return;}
      */
+    if (message.content.toLowerCase() === 'OH MY GOD')
+       {message.content.send('STOP STOP IT, I dont care about each and everyone of the sea creatures');return;}
+    if (message.content.toLowerCase() === "we gotta be sneaky Charlie")
+       {message.content.send('Yeah theres no way my legs can do that');return}
+    
+                         
     
 
         
