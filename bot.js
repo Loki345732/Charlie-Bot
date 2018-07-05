@@ -4,7 +4,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('message', message => {
-    if (message.author.bot) {return;}
+    if (message.author.id === '464251263257935872') {return;}
     if (message.content.toLowerCase() === 'ring ring') 
        {message.channel.send('You have a bad connection');return;}
     /*FOLLOW THIS TEMPLATE
