@@ -19,7 +19,11 @@ client.on('message', message => {
        {message.channel.send('it didnt say anything');return}
     if (message.content.toLowerCase() === 'goodbye charlie, goodbye')
        {message.channel.send('goodbye what, hey whats going on here. Hello who is that...');return}
-                         
+    if (message.content.toLowerCase() === 'oh no here comes a school of poisonous fugo fish')
+       {message.channel.send('oh you gotta watch out for those');return}
+    if (message.content.toLowerCase() === 'the vortex is open')
+       {message.channel.send('oh God okay what is this');return}
+    
     
 
         
