@@ -27,13 +27,13 @@ client.on('message', message => {
     
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'the')
        {message.channel.send('KRUSTY');return}
-    if (message.content.toLowerCase() === 'krab')
+    if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'krab')
        {message.channel.send('PIZZA');return}
-    if (message.content.toLowerCase() === 'is')
+    if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'is')
        {message.channel.send('THE');return}
-    if (message.content.toLowerCase() === 'pizza')
+    if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'pizza')
        {message.channel.send('FOR');return}
-    if (message.content.toLowerCase() === 'you')
+    if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'you')
        {message.channel.send('AND');return}
     
     
