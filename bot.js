@@ -25,6 +25,16 @@ client.on('message', message => {
        {message.channel.send('oh God okay what is this');return}
     if (message.content.toLowerCase() === 'the')
        {message.channel.send('KRUSTY');return}
+    if (message.content.toLowerCase() === 'krab')
+       {message.channel.send('PIZZA');return}
+    if (message.content.toLowerCase() === 'is')
+       {message.channel.send('THE');return}
+    if (message.content.toLowerCase() === 'pizza')
+       {message.channel.send('FOR');return}
+    if (message.content.toLowerCase() === 'you')
+       {message.channel.send('AND');return}
+    
+    
     
     
 
