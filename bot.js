@@ -23,7 +23,9 @@ client.on('message', message => {
        {message.channel.send('oh you gotta watch out for those');return}
     if (message.content.toLowerCase() === 'the vortex is open')
        {message.channel.send('oh God okay what is this');return}
-    if (message.content.toLowerCase() === 'the')
+    
+    
+    if (message.author.id=== "450834805072855040" && message.content.toLowerCase() === 'the')
        {message.channel.send('KRUSTY');return}
     if (message.content.toLowerCase() === 'krab')
        {message.channel.send('PIZZA');return}
