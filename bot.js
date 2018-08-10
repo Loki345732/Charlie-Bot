@@ -5,7 +5,6 @@ client.on('ready', () => {
 });
 client.on('message', message => {
     if (message.author.id === '450759594751426580' || message.author.id === '361013294783528962' || message.author.id === '450834805072855040' || message.author.id === '464251263257935872') {return;}
-    if (message.author.id === '464251263257935872') {return;}
     if (message.content.toLowerCase() === 'ring ring') 
        {message.channel.send('You have a bad connection');return;}
     /*FOLLOW THIS TEMPLATE
