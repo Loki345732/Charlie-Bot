@@ -4,10 +4,12 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('message', message => {
-    if (message.author.id !== '450759594751426580') {return;}
-    if (message.author.id !== '361013294783528962') {return;}
-    if (message.author.id !== '450834805072855040') {return;}
-    if (message.author.id !== '464251263257935872') {return;}
+    var sjrid = '451161188466950146';     
+    var sjr = message.guild.channels.get(sjrid);
+    var worthid = '477288313871532043';   
+    var worthyrole = message.guild.roles.get(worthid);
+   // if (message.channel === sjr && !message.member.roles.has(worthid)) {return;}
+    if (message.channel === sjr && !message.member.roles.has(465672296850391041)) {return;}
     if (message.content.toLowerCase() === 'ring ring') 
        {message.channel.send('You have a bad connection');return;}
     /*FOLLOW THIS TEMPLATE
