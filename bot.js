@@ -9,7 +9,7 @@ client.on('message', message => {
     var worthid = '477288313871532043';   
     var worthyrole = message.guild.roles.get(worthid);
    // if (message.channel === sjr && !message.member.roles.has(worthid)) {return;}
-    if (message.channel === sjr && !message.member.roles.has(465672296850391041)) {return;}
+    if (!message.member.roles.has(465672296850391041)) {return;}
     if (message.content.toLowerCase() === 'ring ring') 
        {message.channel.send('You have a bad connection');return;}
     /*FOLLOW THIS TEMPLATE
