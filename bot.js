@@ -4,13 +4,31 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('message', message => {
-    if (message.author.id === '450759594751426580' || message.author.id === '450834805072855040'){return;}
-    if (message.content.toLowerCase() === 'ring ring') 
-       {message.channel.send('You have a bad connection');return;}
+    //members
+    var barryid = '450834805072855040';   var barry = message.guild.members.get(barryid);
+    var charlid = '464251263257935872';   var charlie = message.guild.members.get(charlid);
+    var palid = '361013294783528962';     var pal = message.guild.members.get(palid);
+    var kerwinid = '450759594751426580';  var kerwin = message.guild.members.get(kerwinid);
+    var carpid = '191039112340307968';    var carp = message.guild.members.get(carpid);
+    var joeid = '409038055115063297';     var joe = message.guild.members.get(joeid);
+    var danid = '94555965663219712';      var dan = message.guild.members.get(danid);
+    var kirkid = '450818241430814723';    var kirk = message.guild.members.get(kirkid);
+    var lupesid = '450787117358907393';   var lupes = message.guild.members.get(lupesid);
+    var malfaid = '451458447511388171';   var malfa = message.guild.members.get(malfaid);
+    var frankid = '231616220602826753';   var frank = message.guild.members.get(frankid);
+    var pokeid = '365975655608745985';    var poke = message.guild.members.get(pokeid);
+    //channels
+    var sjrid = '451161188466950146';     var sjr = message.guild.channels.get(sjrid);
+    //restriction case
+    if((message.author.id === carpid || message.author.id === joeid || message.author.id === danid ||
+        message.author.id === kirkid || message.author.id === lupesid || message.author.id === malfaid ||
+        message.author.id === frankid || message.author.id === pokeid) && message.channel === sjr) {return;}
     /*FOLLOW THIS TEMPLATE
     if (message.content.toLowerCase() === '<trigger>')
        {message.channel.send('<response>');return;}
      */
+    if (message.content.toLowerCase() === 'ring ring') 
+       {message.channel.send('You have a bad connection');return;}
     if (message.content.toLowerCase() === 'oh my god')
        {message.channel.send('STOP STOP IT, I dont care about each and everyone of the sea creatures');return;}
     if (message.content.toLowerCase() === "we gotta be sneaky charlie")
@@ -23,8 +41,6 @@ client.on('message', message => {
        {message.channel.send('oh you gotta watch out for those');return}
     if (message.content.toLowerCase() === 'the vortex is open')
        {message.channel.send('oh God okay what is this');return}
-    
-    
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'the')
        {message.channel.send('KRUSTY');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'krab')
