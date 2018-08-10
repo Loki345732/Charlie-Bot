@@ -20,9 +20,9 @@ client.on('message', message => {
     //channels
     var sjrid = '451161188466950146';     var sjr = message.guild.channels.get(sjrid);
     //restriction case
-    if((message.author.id === carpid || message.author.id === joeid || message.author.id === danid ||
+    if (message.author.id === carpid || message.author.id === joeid || message.author.id === danid ||
         message.author.id === kirkid || message.author.id === lupesid || message.author.id === malfaid ||
-        message.author.id === frankid || message.author.id === pokeid) && message.channel === sjr) {return;}
+        message.author.id === frankid || message.author.id === pokeid) {return;}
     /*FOLLOW THIS TEMPLATE
     if (message.content.toLowerCase() === '<trigger>')
        {message.channel.send('<response>');return;}
