@@ -45,17 +45,17 @@ client.on('message', message => {
        for(let i=0;i<69000;i++){let x=i;let y=x;}
        {message.channel.send('KRUSTY');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'krab')
-       for(let i=0;i<69000;i++){let x=i;let y=x;}
-       {message.channel.send('PIZZA');return}
+       {for(let i=0;i<69000;i++){let x=i;let y=x;}
+       message.channel.send('PIZZA');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'is')
-       for(let i=0;i<69000;i++){let x=i;let y=x;}
-       {message.channel.send('THE');return}
+       {for(let i=0;i<69000;i++){let x=i;let y=x;}
+       message.channel.send('THE');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'pizza')
-       for(let i=0;i<69000;i++){let x=i;let y=x;}
-       {message.channel.send('FOR');return}
+       {for(let i=0;i<69000;i++){let x=i;let y=x;}
+       message.channel.send('FOR');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'you')
-       for(let i=0;i<69000;i++){let x=i;let y=x;}
-       {message.channel.send('AND');return}
+       {for(let i=0;i<69000;i++){let x=i;let y=x;}
+       message.channel.send('AND');return}
     if (message.content.toLowerCase() === 'your the banana king charlie')
        {message.channel.send('Im the banana king');return;}
        
