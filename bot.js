@@ -51,7 +51,9 @@ client.on('message', message => {
        {message.channel.send('FOR');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'you')
        {message.channel.send('AND');return}
-    
+    if (message.content.toLowerCase() === 'your the banana king charlie'
+       {message.channel.send('Im the banana king');return;}
+       
     
     
     
