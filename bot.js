@@ -42,8 +42,8 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'the vortex is open')
        {message.channel.send('oh God okay what is this');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'the')
-       for(let i=0;i<69000;i++){let x=i;let y=x;}
-       {message.channel.send('KRUSTY');return}
+       {for(let i=0;i<69000;i++){let x=i;let y=x;}
+       message.channel.send('KRUSTY');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'krab')
        {for(let i=0;i<69000;i++){let x=i;let y=x;}
        message.channel.send('PIZZA');return}
