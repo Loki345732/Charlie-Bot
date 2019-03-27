@@ -42,7 +42,7 @@ client.on('message', message => {
     if (message.content.toLowerCase() === 'the vortex is open')
        {message.channel.send('oh God okay what is this');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'the')
-       {setTimeout(function(){message.channel.send('KRUSTY');},5000);}
+       {setTimeout(function(){message.channel.send('KRUSTY');},2500);}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'krab')
        {message.channel.send('PIZZA');return}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'is')
