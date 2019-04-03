@@ -44,13 +44,13 @@ client.on('message', message => {
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'the')
        {setTimeout(function(){message.channel.send('KRUSTY');},2500);}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'krab')
-       {message.channel.send('PIZZA');return}
+       {setTimeout(function(){message.channel.send('PIZZA');},2500;}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'is')
-       {message.channel.send('THE');return}
+       {setTimeout(function(){message.channel.send('THE');},2500;}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'pizza')
-       {message.channel.send('FOR');return}
+       {setTimeout(function(){message.channel.send('FOR');},2500;}
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'you')
-       {message.channel.send('AND');return}
+       {setTimeout(function(){message.channel.send('AND');},2500;}
     if (message.content.toLowerCase() === 'your the banana king charlie')
        {message.channel.send('Im the banana king');return;}
        
