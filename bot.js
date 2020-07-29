@@ -55,7 +55,7 @@ client.on('message', message => {
        {message.channel.send('Im the banana king');}
     if (message.content.toLowerCase() === 'oh, look at that')
        {message.channel.send('pink and blue: Z!!!!!!');}
-    if (message.content.toLowerCase() === 'I dont see any train. All I see is a giant sneaker')
+    if (message.content.toLowerCase() === 'i dont see any train, all I see is a giant sneaker')
        {message.channel.send('pink and blue: Its the Choo Choo Shoe, Charlie');return;}
     
     
