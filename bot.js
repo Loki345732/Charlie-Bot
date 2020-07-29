@@ -52,8 +52,11 @@ client.on('message', message => {
     if (message.author.id === "450834805072855040" && message.content.toLowerCase() === 'you')
        {setTimeout(function(){message.channel.send('AND');},500);}
     if (message.content.toLowerCase() === 'your the banana king charlie')
-       {message.channel.send('Im the banana king');return;}
-       
+       {message.channel.send('Im the banana king');}
+    if (message.content.toLowerCase() === 'oh, look at that')
+       {message.channel.send('pink and blue: Z!!!!!!');}
+    if (message.content.toLowerCase() === 'I dont see any train. All I see is a giant sneaker')
+       {message.channel.send('pink and blue: Its the Choo Choo Shoe, Charlie');return;}
     
     
     
